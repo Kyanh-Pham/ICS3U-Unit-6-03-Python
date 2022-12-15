@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rRbzi94DjYtUf3qIHJvX" name="Page-1">
-        <mxGraphModel dx="754" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="646" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -31,37 +31,38 @@
                 <mxCell id="114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="98" target="113" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="98" value="for counter in rage(0, len(list_of_numbers))" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="370" width="140" height="130" as="geometry"/>
+                <mxCell id="98" value="&lt;div style=&quot;line-height: 27px&quot;&gt;for single_random_number in list_of_numbers:&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="370" width="135" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="103" style="edgeStyle=none;html=1;" parent="1" source="101" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="440" y="615" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="108" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="101" target="98" edge="1">
+                <mxCell id="120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="101">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="310" y="770" as="targetPoint"/>
+                        <mxPoint x="240" y="440" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="310" y="710"/>
-                            <mxPoint x="200" y="710"/>
-                            <mxPoint x="200" y="435"/>
+                            <mxPoint x="160" y="710"/>
+                            <mxPoint x="160" y="440"/>
+                            <mxPoint x="240" y="440"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="101" value="if list_of_numbers[counter] &amp;lt; smallest_number" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="101" value="if single_random_number &amp;lt; smallest_number" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="240" y="550" width="140" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="104" target="98" edge="1">
+                <mxCell id="119" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;rounded=0;" edge="1" parent="1" source="104" target="98">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="474" y="710"/>
-                            <mxPoint x="200" y="710"/>
-                            <mxPoint x="200" y="435"/>
+                            <mxPoint x="160" y="710"/>
+                            <mxPoint x="160" y="440"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="104" value="smallest_number = list_of_numbers[counter]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="104" value="smallest_number = single_random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="414" y="585" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="105" value="smallest_number =&amp;nbsp;&lt;br&gt;list_of_numbers[0]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">

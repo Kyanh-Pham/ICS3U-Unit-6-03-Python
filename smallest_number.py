@@ -10,10 +10,9 @@ import random
 def find_smallest_number(list_of_numbers):
     smallest_number = list_of_numbers[0]
 
-    for counter in range(0, len(list_of_numbers)):
-        if list_of_numbers[counter] < smallest_number:
-            smallest_number = list_of_numbers[counter]
-
+    for single_random_number in list_of_numbers:
+        if single_random_number < smallest_number:
+            smallest_number = single_random_number
     return smallest_number
 
 
