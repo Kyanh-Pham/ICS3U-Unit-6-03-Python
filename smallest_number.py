@@ -6,6 +6,7 @@
 
 import random
 from typing import List
+# imports "list" type
 
 
 def find_smallest_number(list_of_numbers: List[int]) -> int:
