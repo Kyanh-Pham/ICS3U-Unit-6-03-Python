@@ -5,9 +5,10 @@
 #  number
 
 import random
+from typing import List
 
 
-def find_smallest_number(list_of_numbers: int) -> int:
+def find_smallest_number(list_of_numbers: List[int]) -> int:
     # This function finds the smallest number in a list
 
     smallest_number = list_of_numbers[0]
