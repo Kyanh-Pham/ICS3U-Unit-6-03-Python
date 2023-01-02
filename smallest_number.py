@@ -7,7 +7,8 @@
 import random
 
 
-def find_smallest_number(list_of_numbers):
+def find_smallest_number(list_of_numbers: int) -> int:
+    # This function finds the smallest number in a list
     smallest_number = list_of_numbers[0]
 
     for single_random_number in list_of_numbers:
